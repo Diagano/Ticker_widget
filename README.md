@@ -55,12 +55,14 @@ Supports a single-line calculation that can reference the same ticker names.
 <ul>
   <li>Calculation expressions must reference valid ticker names from <code>"stocks"</code>.</li>
   <li>After-hours data availability may vary by ticker and data source.</li>
+  <li>On prices fetch failure the previous price will stil be displayed and used, an asteric will be displayed to indicate price update failure.</li>
 </ul>
 
 Full view:<br> ![Ticker Screenshot](images/full_view.png)<br>
 During trading only view:<br> ![Ticker Screenshot](images/view.png)<br>
 Right click menu:<br> ![Ticker Screenshot](images/menu.png)<br>
 Mini view:<br> ![Ticker Screenshot](images/mini_view.png)<br>
+
 
 
 
