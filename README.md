@@ -1,22 +1,59 @@
-Simple quick stock price ticker widget. Intentially not using any extrenal lib.
-Always on top, minimal, movable, scalable.
-Basic scraping for stock after houres/during trading price.
-Single line of calculation using the same ticker names.
+<h1>Simple Stock Price Ticker Widget</h1>
 
-Configuration (Config.json):
-"stocks": [] # List of ticker names, examples: GOOG, CYBR, PANW
-"interval_minutes": <int> # Update interval inminutes
-"calculation": <str> # optional calculation using the ticker names. For example "(PANW \* 2.2005 + 45)" - CYBR.
+<p>
+A minimal, always-on-top, movable, and scalable stock price ticker widget.
+It uses no external libraries and performs basic scraping to show during-trading and after-hours prices.
+Supports a single-line calculation that can reference the same ticker names.
+</p>
 
-Control:
-1.Drag
-2. CTRL+Mounse weel, inc\dec font size
-3. Double click: toggle on\off view of calculation line only. Note that the line could just as well be one of the ticker names.
+<h2>Features</h2>
+<ul>
+  <li><strong>Always on top</strong>, minimal UI</li>
+  <li><strong>Movable</strong> (drag to reposition)</li>
+  <li><strong>Scalable</strong> (adjust font size)</li>
+  <li><strong>Basic scraping</strong> for live and after-hours prices</li>
+  <li><strong>Inline calculation</strong> using the same ticker symbols (e.g., <code>(PANW * 2.2005 + 45) - CYBR</code>)</li>
+</ul>
 
-Rigght click menu:
- -Refresh : Manual value refresh
- -Font (inc) : Inc by 1 font size
- -Font (dec) : dec by 1 font size
- -Next Font : Iterate over suppoerted fonts
- -Font reset : Reset to startp size and type
- -Toggle Afterh : Toggle on\off after hour prices view
+<h2>Configuration (<code>Config.json</code>)</h2>
+<p>Keys:</p>
+<ul>
+  <li><code>"stocks"</code>: <em>array</em> — List of ticker symbols. Examples: <code>["GOOG", "CYBR", "PANW"]</code></li>
+  <li><code>"interval_minutes"</code>: <em>integer</em> — Update interval in minutes</li>
+  <li><code>"calculation"</code>: <em>string (optional)</em> — A single-line formula using the ticker names. Example: <code>"(PANW * 2.2005 + 45) - CYBR"</code></li>
+</ul>
+
+<details>
+  <summary>Example <code>Config.json</code></summary>
+
+  <pre><code>{
+  "stocks": ["GOOG", "CYBR", "PANW"],
+  "interval_minutes": 2,
+  "calculation": "(PANW * 2.2005 + 45) - CYBR"
+}
+  </code></pre>
+</details>
+
+<h2>Controls</h2>
+<ol>
+  <li><strong>Drag</strong>: Click and drag to move the widget</li>
+  <li><strong>Ctrl + Mouse Wheel</strong>: Increase/decrease font size</li>
+  <li><strong>Double-click</strong>: Toggle showing only the calculation line (the line can also be just a single ticker)</li>
+</ol>
+
+<h2>Right-Click Menu</h2>
+<ul>
+  <li><strong>Refresh</strong>: Manual value refresh</li>
+  <li><strong>Font (inc)</strong>: Increase font size by 1</li>
+  <li><strong>Font (dec)</strong>: Decrease font size by 1</li>
+  <li><strong>Next Font</strong>: Cycle through supported fonts</li>
+  <li><strong>Font reset</strong>: Reset to starting size and type</li>
+  <li><strong>Toggle Afterh</strong>: Toggle after-hours prices on/off</li>
+</ul>
+
+<h2>Notes</h2>
+<ul>
+  <li>Calculation expressions must reference valid ticker names from <code>"stocks"</code>.</li>
+  <li>After-hours data availability may vary by ticker and data source.</li>
+</ul>
+
