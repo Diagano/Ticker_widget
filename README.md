@@ -57,8 +57,9 @@ Supports a single-line calculation that can reference the same ticker names.
   <li>After-hours data availability may vary by ticker and data source.</li>
 </ul>
 
-![Ticker Screenshot](images/full_view.png)<br>
-![Ticker Screenshot](images/view.png)<br>
-![Ticker Screenshot](images/menu.png)<br>
-![Ticker Screenshot](images/mini_view.png)<br>
+Full view:<br> ![Ticker Screenshot](images/full_view.png)<br>
+During trading only view:<br> ![Ticker Screenshot](images/view.png)<br>
+Right click menu:<br> ![Ticker Screenshot](images/menu.png)<br>
+Mini view:<br> ![Ticker Screenshot](images/mini_view.png)<br>
+
 
