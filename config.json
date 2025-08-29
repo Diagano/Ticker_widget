@@ -1,0 +1,5 @@
+{
+  "stocks": ["CYBR", "PANW"],
+  "interval_minutes": 2,
+  "calculation": "(PANW * 2.2005 + 45) - CYBR"
+}
