@@ -39,17 +39,17 @@ Supports a single-line calculation that can reference the same ticker names.
   <li><strong>Drag</strong>: Click and drag to move the widget</li>
   <li><strong>Ctrl + Mouse Wheel</strong>: Increase/decrease font size</li>
   <li><strong>Double-click</strong>: Toggle showing only the calculation line (the line can also be just a single ticker)</li>
+  <li><strong>Right-Click Menu</strong>
+    <ul>
+      <li><strong>Refresh</strong>: Manual value refresh</li>
+      <li><strong>Font (inc)</strong>: Increase font size by 1</li>
+      <li><strong>Font (dec)</strong>: Decrease font size by 1</li>
+      <li><strong>Next Font</strong>: Cycle through supported fonts</li>
+      <li><strong>Font reset</strong>: Reset to starting size and type</li>
+      <li><strong>Toggle Afterh</strong>: Toggle after-hours prices on/off</li>
+    </ul>
+  </li>
 </ol>
-
-<h2>Right-Click Menu</h2>
-<ul>
-  <li><strong>Refresh</strong>: Manual value refresh</li>
-  <li><strong>Font (inc)</strong>: Increase font size by 1</li>
-  <li><strong>Font (dec)</strong>: Decrease font size by 1</li>
-  <li><strong>Next Font</strong>: Cycle through supported fonts</li>
-  <li><strong>Font reset</strong>: Reset to starting size and type</li>
-  <li><strong>Toggle Afterh</strong>: Toggle after-hours prices on/off</li>
-</ul>
 
 <h2>Notes</h2>
 <ul>
@@ -57,7 +57,8 @@ Supports a single-line calculation that can reference the same ticker names.
   <li>After-hours data availability may vary by ticker and data source.</li>
 </ul>
 
-![Ticker Screenshot](images/full_view.png)
-![Ticker Screenshot](images/view.png)
-![Ticker Screenshot](images/menu.png)
-![Ticker Screenshot](images/mini_view.png)
+![Ticker Screenshot](images/full_view.png)<br>
+![Ticker Screenshot](images/view.png)<br>
+![Ticker Screenshot](images/menu.png)<br>
+![Ticker Screenshot](images/mini_view.png)<br>
+
