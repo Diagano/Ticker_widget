@@ -3,8 +3,8 @@
 <p>
 A minimal, always-on-top, movable, and scalable stock price ticker widget.
 It uses no external libraries (Not allowed to run pip except for approced libs) and performs basic scraping to show during-trading and after-hours prices.
+Supports a single-line calculation that can reference the same ticker names.<br>
 This is what a quick and dirty hour long need to looks like...
-Supports a single-line calculation that can reference the same ticker names.
 </p>
 
 <h2>Features</h2>
@@ -63,6 +63,7 @@ Full view:<br> ![Ticker Screenshot](images/full_view.png)<br>
 During trading only view:<br> ![Ticker Screenshot](images/view.png)<br>
 Right click menu:<br> ![Ticker Screenshot](images/menu.png)<br>
 Mini view:<br> ![Ticker Screenshot](images/mini_view.png)<br>
+
 
 
 
